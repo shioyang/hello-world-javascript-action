@@ -10,6 +10,10 @@
     "@actions/github": "^2.2.0"
   },
   "scripts": {
-    "build": "ncc build index.js"
+    "build": "tsc && ncc build lib/index.js"
+  },
+  "devDependencies": {
+    "@zeit/ncc": "^0.22.3",
+    "typescript": "^3.9.3"
   }
 }
