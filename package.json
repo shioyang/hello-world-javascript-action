@@ -7,7 +7,7 @@
   "license": "MIT",
   "dependencies": {
     "@actions/core": "^1.2.4",
-    "@actions/github": "^2.2.0"
+    "@actions/github": "^5.1.1"
   },
   "scripts": {
     "build": "tsc && ncc build lib/index.js"
